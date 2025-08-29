@@ -1,6 +1,6 @@
 .container{
     width: 1440px;
-     height: 7228px;
+     height: min-content;
      background-color: black;
 
 
@@ -295,16 +295,28 @@ margin-left: 118px;
     color: #D3FD06;
     
 }
+.border{
+    border-style: solid;
+border-color: black;
+border-bottom-color:#D3FD06;
 
+}
+.border2{
+    border-style: solid;
+border-color: black;
+border-bottom-color:#D3FD06;
+opacity: 0.55;
+}
 .exper{
    max-width: 682px;
    margin-left: -75px;
    display: flex;
  justify-content: space-around;
  height: 155.44px;
- 
-  
+
 }
+
+
 .h5{
     color: #D3FD06;
 }
@@ -419,8 +431,9 @@ border: 5px;
 .select-main{
     width: 999px;
     color: #D3FD06;
-    height: 145px;
+    height: 150px;
     font-weight: 400 ;
+    font-size: 60px;
 }
 
 .class2 {
@@ -435,3 +448,306 @@ border: 5px;
     border-radius: 8%;
 }
 
+.arrowicon{
+    text-align: center;
+}
+
+.graphic-main{
+    width: 1177px;
+    height: 933px;
+    display: flex;
+    position: absolute;
+}
+
+.graphic{
+    height: 192px;
+    width: 1176px;
+    color: #D3FD06;
+    margin-left: 118px;
+    border-style:solid;
+    border-color: black;
+    border-bottom-color: #fff;
+    
+}
+
+.graphic-p{
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.graphic-h{
+    font-size: 80px;
+        margin-top: -55px;
+    margin-left: 19px;
+}
+.imagepic2{
+    width: 301px;
+    height: 301px;
+    
+}
+
+.graphic1{
+    margin-top: 234px;
+      border-style:solid;
+    border-color: black;
+    border-bottom-color: #fff;
+    
+}
+.graphic-p1{
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 900;
+}
+.graphic-h1{
+        font-size: 80px;
+    margin-top: -66px;
+    margin-left: 19px;
+}
+
+
+.graphic1-main{
+    width: 1050px;
+    height: 193px;
+    margin-left: 118px;
+}
+
+/* Brand*/ 
+.brand2-main{
+    width: 1050px;
+    height: 193px;
+    margin-left: 118px;
+    margin-top: 0;
+}
+
+.brand2{
+     margin-top: 60px;
+      border-style:solid;
+    border-color: black;
+    border-bottom-color: #fff;
+}
+
+.brand-p2{
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.brand-h2{
+        font-size: 80px;
+    margin-top: -66px;
+    margin-left: 25px;
+}
+/*end brand*/
+
+.motion3-main{
+     width: 1050px;
+    height: 193px;
+    margin-left: 118px;
+    margin-top: 0;
+}
+
+.motion3{
+    margin-top: 60px;
+      border-style:solid;
+    border-color: black;
+    border-bottom-color: #fff;
+}
+.motion-p3{
+     text-transform: uppercase;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.motion-h3{
+     font-size: 80px;
+    margin-top: -66px;
+    margin-left: 25px;
+}
+
+
+.clients-main{
+    width: 1176px;
+    height: 736.8px;
+    
+    margin-left: 118px;   
+    margin-top: 25px;  
+}
+.clients{
+    display: flex;
+}
+
+
+.clients-h{
+    width: 638px;
+    height: 145px;
+        font-size: 90px;
+    margin-top: 30px;
+    color: #D3FD06;
+
+    
+}
+.btn-clients{
+    margin-top: 80px;
+    margin-left: 410px;
+    width: 270px;
+    height: 96px;
+    
+}
+
+.btn1{
+
+    width: 96px;
+    height: 96px;
+    border-radius: 10%;
+    top: 65px;
+   
+    border-color: #fff;
+    
+    
+    
+    color: white;
+    background-color: black;
+    
+    
+}
+
+.btn3{
+    border-color: #D3FD06;
+    width: 96px;
+    height: 96px;
+    border-radius: 10%;
+    top: 65px;
+   margin-left: 30px;
+    border-color: #fff;
+    font-size: large;
+    color: white;
+    background-color: black;
+    
+    
+}
+
+.imgup{
+    width: 483px;
+    height: 480px;
+    border: 1px;
+    border-radius: 32px;
+}
+
+.fleximg{
+    display: flex;
+    gap: 20px;
+}
+
+.p-img{
+    width: 661px;
+    height: 480px;
+    background-color: #5A5A5A;
+    border-radius: 32px;
+    text-align: center;
+    justify-self: center;
+}
+
+.p-bg{
+    width: 563px;
+    height: 222px;
+     text-align:left;
+     line-height: 155%;
+     font-size: 24px;
+         padding: 40px;
+
+}
+
+.p-name{
+    text-align:left ;
+     margin-left: 30px;
+margin-top: -41px;
+    margin-right: 300px;
+
+
+}
+
+.roby{
+    width: 145px;
+    height: 46px;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 115%;
+        margin-bottom: -24px;
+}
+
+.sales{
+   width: 145px;
+    height: 46px;
+        line-height: 155%;
+    font-weight: 400;
+}
+
+.vector{
+    width: 205px;
+    height: 165px;
+}
+.vector-img{
+    margin-left: 400px;
+    margin-top: -55px;
+
+}
+
+.reach-main{
+    width: 1177px;
+    height: 696px;
+    margin-left: 118px;
+}
+
+.reach{
+    width: 993px;
+    height: 145px;
+    font-size: 50px;
+    text-align: center;
+    color: #D3FD06;
+    margin-left: 15px;
+}
+
+.p-reach{
+    display: flex;
+    justify-content:space-between;
+}
+
+.p-reach-main{
+    width: 330px;
+    height: 259px;
+    font-size: 21px;
+}
+
+.add-main{
+
+    width: 240px;
+    height: 331px;
+}
+
+.follow-main{
+    width: 152px;
+    height: 230px;
+}
+.p-address{
+    color: #D3FD06;
+}
+
+.p-via{
+    width: 239px;
+    font-weight: 400;
+    font-size: 22px;
+}
+.line{
+    border: 2px;
+    border-style: solid;
+    border-bottom-color: white;
+        margin-left: 118px;
+    margin-top: -190px;
+
+}
+.footer-main{
+    margin-left: 118px;
+    display: flex;
+    justify-content:space-between;
+}
