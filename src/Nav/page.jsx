@@ -1,8 +1,5 @@
 import React from "react";
 import "../Nav/page.css";
-import Buttonimage from "../../src/assets/btn.png";
-import Side from "../../src/assets/side.png"
-import Element from "../../src/assets/element.png"
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import CircleIcon from "@mui/icons-material/Circle";
 import { FiDollarSign } from "react-icons/fi";
@@ -13,7 +10,7 @@ const Page = () => {
       {/* Top Navigation */}
       <div className="Na">
         <div>
-          <img src={Side} className="twoline" alt="twoline" />
+          <img src="/side.png" className="twoline" alt="twoline" />
         </div>
         <FiDollarSign className="dollar" />
 
@@ -29,7 +26,7 @@ const Page = () => {
           <img src="https://placehold.co/533x570" alt="profile" className="img1" />
           <h1 className="stark">I’M IVAN STARK</h1>
           <div className="divelement">
-            <img src={Element} alt="element" className="element" />
+            <img src="/element.png" alt="element" className="element" />
           </div>
         </div>
 
@@ -109,7 +106,7 @@ const Page = () => {
               </div>
               <div>
                 <button className="btnimg">
-                  <img src={Buttonimage} alt="btn" />
+                  <img src="/btn.png" alt="btn" />
                 </button>
               </div>
               <h4 className="vector-pad">vectori </h4>
