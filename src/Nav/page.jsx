@@ -9,26 +9,7 @@ import Twoline from "../assets/side.png";
 
 const page = () => {
 
-  const works = [
-  {
-    id: 1,
-    title: "Project One",
-    img: "https://via.placeholder.com/300x200", // replace with real image
-    link: "#"
-  },
-  {
-    id: 2,
-    title: "Project Two",
-    img: "https://via.placeholder.com/300x200",
-    link: "#"
-  },
-  {
-    id: 3,
-    title: "Project Three",
-    img: "https://via.placeholder.com/300x200",
-    link: "#"
-  }
-];
+  
   return (
     <section className="container">
       <div className="Na">
