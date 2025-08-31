@@ -28,7 +28,7 @@ const Page = () => {
       <div className="main-content">
         <div className="content">
           <img
-            src="https://placehold.co/533x570"
+            src="/premium_photo-1689977927774-401b12d137d6.avif"
             alt="profile"
             className="img1"
           />
@@ -59,7 +59,7 @@ const Page = () => {
       <div className="creative">
         <h1 className="h1-creative">MY CREATIVE JOURNEY</h1>
         <img
-          src="https://placehold.co/620x707"
+          src="/photo-1596638787647-904d822d751e.avif"
           alt="creative"
           className="img"
         />
@@ -172,14 +172,14 @@ const Page = () => {
         <div className="class2">
           <div>
             <img
-              src="https://placehold.co/484x506"
+              src="/select-work-2.avif"
               alt="work1"
               className="img2"
             />
           </div>
           <div>
             <img
-              src="https://placehold.co/484x506"
+              src="/select-work.avif"
               alt="work2"
               className="img2"
             />
@@ -200,7 +200,7 @@ const Page = () => {
           <p className="graphic-p">01</p>
           <h2 className="graphic-h">GRAPHIC DESIGN</h2>
         </div>
-        <img className="imagepic2" src="/Image.png" alt="#"></img>
+        <img className="imagepic2" src="/photo-1596638787647-904d822d751e.avif" alt="#"></img>
       </div>
 
       <div className="graphic1-main">
@@ -240,7 +240,7 @@ const Page = () => {
           <div className="fleximg">
             <div>
               <img
-                src="https://placehold.co/483x480"
+                src="/select-work-2.avif"
                 alt="profile"
                 className="imgup"
               />

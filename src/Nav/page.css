@@ -446,6 +446,9 @@ border: 5px;
 .img2{
     border: 1px;
     border-radius: 8%;
+    width: 480px;
+    height: 504px;
+
 }
 
 .arrowicon{
@@ -484,7 +487,8 @@ border: 5px;
 .imagepic2{
     width: 301px;
     height: 301px;
-    
+    border: 1px;
+    border-radius: 8%;
 }
 
 .graphic1{
